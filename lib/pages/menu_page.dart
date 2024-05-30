@@ -29,7 +29,7 @@ class  _MenuState extends State <Menu> {
         children: [
           ListTile(
            iconColor: Colors.black,
-            title: Text('១​. ជំនួយ',
+            title: Text('ជំនួយ',
              style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 17,
@@ -47,7 +47,7 @@ class  _MenuState extends State <Menu> {
           ),
           ListTile(
             iconColor: Colors.black,
-            title: Text('២​. ក្រុមការងារបច្ចេកទេស',
+            title: Text('ក្រុមការងារបច្ចេកទេស',
             style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 17,
@@ -65,7 +65,7 @@ class  _MenuState extends State <Menu> {
           ),
           ListTile(
             iconColor: Colors.black,
-            title: Text('៣​. ទំនាក់ទំនង',
+            title: Text('ទំនាក់ទំនង',
             style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 17,
@@ -84,7 +84,7 @@ class  _MenuState extends State <Menu> {
 
           ListTile(
             iconColor: Colors.black,
-            title: Text('៤​. អំពីកម្មវិធី',
+            title: Text('អំពីកម្មវិធី',
             style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 17,

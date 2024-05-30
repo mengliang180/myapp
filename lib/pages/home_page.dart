@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/pages/news_page.dart';
+//import 'package:flutter_application_3/pages/news_page.dart';
 import 'package:flutter_application_3/pages/menu_page.dart';
 import 'package:flutter_application_3/pages/search_page.dart';
 class HomePage extends StatefulWidget {
@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
      
 
   PageController _pageController = PageController();
-  List<Widget> _screens = [Search(), News(), Menu()];
+  List<Widget> _screens = [Search(), /*News(),*/ Menu()];
 
   int _selectedIndex = 0;
   void _onPageChanged(int index) {
@@ -63,12 +63,12 @@ class _HomePageState extends State<HomePage> {
             ),
             label: ('ស្វែងរក'), // Khmer label for Search
           ),
-          BottomNavigationBarItem(
+        /*  BottomNavigationBarItem(
             icon: Icon(
               Icons.newspaper,
             ),
             label: ('ព័ត៏មាន'), // Khmer label for News
-          ),
+          ),*/
           BottomNavigationBarItem(
             icon: Icon(
               Icons.menu,

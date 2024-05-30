@@ -84,7 +84,7 @@ class _SearchState extends State<Search> {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 3, 112, 201),
        title: Text(
-          'វចនានុក្រមសំណង់',
+          'ពាក្យបច្ចេកទេស',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 28,

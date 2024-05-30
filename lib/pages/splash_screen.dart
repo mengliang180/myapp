@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
             Text(
               // Replace with your desired text
-              'វចនានុក្រមសំណង់',
+              'ពាក្យបច្ចេកទេស',
              style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25,

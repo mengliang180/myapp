@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 
 class News extends StatefulWidget {
   News({Key? key}) : super(key : key);
@@ -25,4 +25,4 @@ class  _NewsState extends State <News> {
         ),
     );
   }
-}
+}*/
